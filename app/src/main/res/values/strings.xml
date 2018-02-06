@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android-anim-simple</string>
+
+    <string name="all_tips">请点击菜单查看详情！</string>
+    <string name="all_start">开始</string>
+
+    <string name="anim_drawable">帧动画</string>
+    <string name="anim_view">视图动画</string>
+    <string name="anim_property">属性动画</string>
+    <string name="anim_interpolator">插值器</string>
+    <string name="all_alpha">Alpha</string>
+    <string name="all_scale">Scale</string>
+    <string name="all_translate">Translate</string>
+    <string name="all_rotate">Rotate</string>
+
+    <string name="inter_type">插值器类型：%1$s</string>
+</resources>

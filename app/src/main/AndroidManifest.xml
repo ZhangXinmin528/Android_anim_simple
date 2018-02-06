@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_anim_simple">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--帧动画-->
+        <activity
+            android:name=".drawable_anim.DrawableAnimActivity"
+            android:screenOrientation="portrait" />
+
+        <!--视图动画-->
+        <activity
+            android:name=".view_anim.ViewAnimActicity"
+            android:screenOrientation="portrait" />
+
+        <!--插值器-->
+        <activity
+            android:name=".interpolator.InterpolatorActivity"
+            android:screenOrientation="portrait" />
+
+        <!--插值器效果-->
+        <activity
+            android:name=".interpolator.InterpolatorDisplayActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

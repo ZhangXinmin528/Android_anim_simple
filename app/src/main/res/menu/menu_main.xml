@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_view"
+        android:title="@string/anim_view" />
+    <item
+        android:id="@+id/item_drawable"
+        android:title="@string/anim_drawable" />
+    <item
+        android:id="@+id/item_property"
+        android:title="@string/anim_property" />
+</menu>
