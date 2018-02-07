@@ -68,6 +68,7 @@ public class InterpolatorActivity extends AppCompatActivity implements AdapterVi
         mDataList.add("LinearInterpolator");
         mDataList.add("PathInterpolator");
         mDataList.add("OvershootInterpolator");
+        mDataList.add("FreeFallingInterpolator");
 
         mAdapter.notifyDataSetChanged();
     }

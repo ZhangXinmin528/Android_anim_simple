@@ -17,7 +17,6 @@ import android.view.animation.CycleInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.OvershootInterpolator;
-import android.view.animation.PathInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -74,7 +73,6 @@ public class InterpolatorDisplayActivity extends AppCompatActivity {
         findViewById(R.id.btn_inter_start).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 showAnim();
             }
         });
@@ -86,7 +84,7 @@ public class InterpolatorDisplayActivity extends AppCompatActivity {
                 Animation.RELATIVE_TO_PARENT, 0.0f, Animation.RELATIVE_TO_PARENT, 0.5f
         );
 
-        animation.setDuration(2000);
+        animation.setDuration(500);
         animation.setFillAfter(true);
         switch (mType) {
             case "AccelerateInterpolator":
@@ -118,6 +116,9 @@ public class InterpolatorDisplayActivity extends AppCompatActivity {
                 break;
             case "OvershootInterpolator":
                 animation.setInterpolator(new OvershootInterpolator());
+                break;
+            case "FreeFallingInterpolator":
+                animation.setInterpolator(new FreeFallingInterpolator());
                 break;
             default:
                 animation.setInterpolator(new LinearInterpolator());
