@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="arrays_voiice">
+        <item>@drawable/voice1</item>
+        <item>@drawable/voice2</item>
+        <item>@drawable/voice3</item>
+        <item>@drawable/voice4</item>
+        <item>@drawable/voice5</item>
+        <item>@drawable/voice6</item>
+        <item>@drawable/voice7</item>
+        <item>@drawable/voice8</item>
+        <item>@drawable/voice9</item>
+        <item>@drawable/voice10</item>
+        <item>@drawable/voice11</item>
+        <item>@drawable/voice12</item>
+        <item>@drawable/voice13</item>
+        <item>@drawable/voice14</item>
+        <item>@drawable/voice15</item>
+        <item>@drawable/voice16</item>
+        <item>@drawable/voice17</item>
+        <item>@drawable/voice18</item>
+        <item>@drawable/voice19</item>
+        <item>@drawable/voice20</item>
+        <item>@drawable/voice21</item>
+        <item>@drawable/voice22</item>
+        <item>@drawable/voice23</item>
+        <item>@drawable/voice24</item>
+        <item>@drawable/voice25</item>
+        <item>@drawable/voice26</item>
+        <item>@drawable/voice27</item>
+        <item>@drawable/voice28</item>
+        <item>@drawable/voice29</item>
+        <item>@drawable/voice30</item>
+        <item>@drawable/voice31</item>
+    </integer-array>
+</resources>

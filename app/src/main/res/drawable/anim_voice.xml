@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/voice1"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice9"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice10"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice11"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice12"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice13"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice14"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice15"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice16"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice17"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice18"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice19"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice20"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice21"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice22"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice23"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice24"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice25"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice26"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice27"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice28"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice29"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice30"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/voice31"
+        android:duration="100" />
+
+
+</animation-list>

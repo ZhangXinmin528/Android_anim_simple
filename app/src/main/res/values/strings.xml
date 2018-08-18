@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android-anim-simple</string>
+    <string name="app_name">Animation-simple</string>
 
     <string name="all_tips">请点击菜单查看详情！</string>
     <string name="all_start">开始</string>

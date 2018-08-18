@@ -1,5 +1,6 @@
 package com.example.android_anim_simple.drawable_anim;
 
+import android.animation.ObjectAnimator;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,6 +10,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.android_anim_simple.R;
+import com.example.android_anim_simple.frameAnim.FrameAnimator;
+import com.example.android_anim_simple.frameAnim.FrameAnimatorBuilder;
 
 /**
  * Created by ZhangXinmin on 2017/7/4.
@@ -26,13 +29,31 @@ public class DrawableAnimActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawable);
         btn = (Button) findViewById(R.id.btn_start);
+        imageView = (ImageView) findViewById(R.id.iv_drawable);
+        final FrameAnimator animator =
+                new FrameAnimatorBuilder(this)
+                        .setTarget(imageView)
+                        .setDuration(100)
+                        .setAnimRes(R.array.arrays_voiice)
+                        .create();
+
+
+        //传统帧动画
+        /*btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                imageView.setImageResource(R.drawable.anim_voice);
+                animation = (AnimationDrawable) imageView.getDrawable();
+                animation.start();
+            }
+        });*/
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageView = (ImageView) findViewById(R.id.iv_drawable);
-                imageView.setImageResource(R.drawable.anim_heart);
-                animation = (AnimationDrawable) imageView.getDrawable();
-                animation.start();
+                assert animator != null;
+                animator.start();
             }
         });
     }
